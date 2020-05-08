@@ -20,7 +20,7 @@
 
 
 def reverse_each_word(string)
-  array = %[string]
+  array = %w[string]
   new_array = []
   array.each do |word|
     new_array << word.reverse
